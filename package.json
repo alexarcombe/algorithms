@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest harmless-ransom-note"
+    "test": "jest is-palindrome"
   },
   "keywords": [],
   "author": "",
