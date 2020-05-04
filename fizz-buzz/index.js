@@ -4,6 +4,7 @@
  * of 5 becomes Buzz and a multiple of both becomes FizzBuzz.
  * @param {number} num
  * @param {Function} callback
+ * @throws {TypeError} - invalid inputs.
  */
 function fizzBuzz(num, callback = (x) => console.log(x)) {
   if (num === undefined) {
