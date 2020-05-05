@@ -1,6 +1,8 @@
 /**
  * Takes a text and returns true if it is a palindrome.
  * @param {string} text.
+ * @throws {TypeError} - wrong inputs.
+ * @returns if palindrome
  */
 function isPalindrome(input) {
   if (input === undefined) {
@@ -23,7 +25,5 @@ function isPalindrome(input) {
   }
   return true;
 }
-
-isPalindrome('this is test');
 
 module.exports = isPalindrome;
