@@ -4,6 +4,6 @@ This algorithm takes a text and returns true if thes text is the same backwards,
 
 ## Example
 
-Mum - true
-My mum has a car - false
-Max, !!!... xam? - true
+Mum - true </br>
+My mum has a car - false </br>
+Max, !!!... xam? - true </br>

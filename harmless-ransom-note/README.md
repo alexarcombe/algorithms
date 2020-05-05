@@ -4,8 +4,9 @@ Takes a note and a magazine as a string and checks if it is possible to cut out 
 
 ## Example
 
-Text Note - "This is a note with a note."
-Magazine - "This is a long text, but only contains note once, with Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptas voluptate molestiae veritatis, facilis corrupti. Quod accusamus reiciendis repellat totam."
+Text Note - "This is a note with a note." </br>
+Magazine - "This is a long text, but only contains note once, with Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptas voluptate molestiae veritatis, facilis corrupti. Quod accusamus reiciendis repellat totam." </br>
+This should fail since note only appears once. </br> </br>
 
-This should fail since note only appears once. With this magazine it should return true:
+With this magazine it should return true: </br>
 Magazine - "This is a long text note, but contains note twice, with Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptas voluptate molestiae veritatis, facilis corrupti. Quod accusamus reiciendis repellat totam."
