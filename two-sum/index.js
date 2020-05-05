@@ -1,5 +1,12 @@
 const { HashTable } = require('../../data_structures/hashTable/HashTable');
 
+/**
+ * Takes a list of numbers and a sum, returns the combinations of numbers that equals to sum.
+ * @param {Array} list
+ * @param {number} sum
+ * @throws {TypeError} Invalid input.
+ * @returns {Array} value-pairs that sum up to sum.
+ */
 function twoSum(list, sum) {
   if (list === undefined || sum === undefined) {
     throw new TypeError('Needs an array of numbers and a sum as input.');
